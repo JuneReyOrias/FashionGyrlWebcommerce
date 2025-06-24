@@ -58,7 +58,7 @@ function TopProductCarousel() {
   };
 
   return (
-    <div className="relative w-full max-w-screen-xl mx-auto mt-12 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 py-12 rounded-xl shadow-xl">
+    <div className="scroll-mt-20 relative w-full max-w-screen-xl mx-auto mt-12 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 py-12 rounded-xl shadow-xl">
       {/* Title */}
       <h2 className="text-3xl font-bold text-center text-white mb-8">
         Top Trending Products

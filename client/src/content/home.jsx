@@ -76,7 +76,7 @@ function Home() {
   };
 
   return (
-    <div>
+    <div>s
       {/* Hero + Carousel Section */}
       <div className="min-h-screen bg-fuchsia-100 flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-12 gap-10">
         {/* LEFT: Text Content */}

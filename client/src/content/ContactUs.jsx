@@ -1,7 +1,7 @@
 function ContactUs() {
     return (
       <>
-        <section id="Contact" className="bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')] relative">
+        <section id="Contact" className="scroll-mt-10 bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')] relative">
           <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
             <h1 className="mb-4 text-2xl font-sans tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
               Contact Fashion Gyrl

@@ -32,13 +32,13 @@ function ProductCat() {
       : ProductCategory.filter((item) => item.category === activeFilter);
 
   return (
-    <div id="Products"  className="mb-1 bg-fuchsia-100 pb-8" data-animate>
+    <div id="Products"  className=" mb-1 scroll-mt-20 bg-fuchsia-100 pb-8" data-animate>
       <p className="mb-4 pt-14 text-2xl tracking-tight text-center text-gray-950 opacity-90">
         These are the products available in various categories
       </p>
 
       {/* Filter Buttons */}
-      <div className="flex items-center justify-center py-4 md:py-8 flex-wrap" id="Project" data-animate>
+      <div  className=" flex items-center justify-center py-4 md:py-8 flex-wrap" id="Project" data-animate>
         {["all", "Tops", "Bottoms", "Outerwear", "Formalwear", "Accessories"].map((filter) => (
           <button
             key={filter}
